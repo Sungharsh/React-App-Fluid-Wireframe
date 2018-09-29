@@ -7,9 +7,9 @@ class App extends Component {
         return ( 
             <div className = "App">
             <div className = "header" > 
-            < h1 > APP - Name </h1></div>
+            <h1> APP - Name </h1></div>
             <div className = "sub-header" >
-            <p > App - links add </p> </div>
+            <p > App-links hear </p> </div>
 
             <div className = "main-two-cal" >
             <div className = "leftcolum" > < p > Content hear </p></div>
@@ -20,7 +20,7 @@ class App extends Component {
             <div className = "footer-left" >
             <img src = { logo } className = "App-logo"alt = "logo" />
             </div>  
-            <div className = "footer-right" ><h1 > Brand - Name.com </h1> </div>  
+            <div className = "footer-right" ><h1 > Brand-Name.com </h1> </div>  
             </div>   
             </div>
         );

@@ -6,12 +6,12 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 10%;
     width: 100%;
-    background-color: #c6e2ff;
-    font-size: 1.8vw;
-    text-shadow: 2px 2px 2px #ffffff;
-    border: 2px solid #d6d5d5;
+    background-color: #e4f0f5;
+    font-size: 0.8vw;
+    text-shadow: 3px 3px 3px #fff;
+    border: 2px solid #d6d5d5;   
 }
 
 .sub-header {
@@ -20,8 +20,8 @@
     align-items: center;
     height: 10%;
     width: 100%;
-    font-size: 1.3vw;
-    background-color: #eaf1ea;
+    font-size: 1.1vw;
+    background-color:#ffe;
     border: 2px solid #d6d5d5;
 }
 
@@ -31,23 +31,21 @@
     grid-template-columns: 1fr 1fr;
     border: 2px solid #d6d5d5;
     width: 100%;
-    height: 49.7%;
+    height: 59.7%;
+    font-size: 2vw;
 }
-
 .leftcolum {
     display: grid;
     justify-items: center;
     align-items: center;
     background-color: #f8f3e9;
-    font-size: 2vw;
 }
 
 .rightcolum {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #e9eaeb;
-    font-size: 2vw;
+    background-color: #eee;
 }
 
 .appFooter {
@@ -61,13 +59,14 @@
     justify-content: center;
     z-index: -1;
     border: 2px solid #d6d5d5;
+    border-bottom:4px solid #d6d5d5;
+    background-color: #e4f0f5;
 }
 
 .footer-left {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #f9ffef;
     height: 100%;
 }
 
@@ -75,9 +74,9 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: #f9ffef;
     height: 100%;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
+    text-shadow: 3px 3px 3px #fff;
 }
 
 .App-logo {
@@ -95,10 +94,20 @@
         transform: rotate(360deg);
     }
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation:portrait){
     .main-two-cal {
         display: grid;
         grid-template-columns: 1fr;
+        font-size: 3vw;
     }
+    .header{
+        font-size: 2.5vw;
+    }
+    .sub-header{
+        font-size: 3vw;
+    }
+    .footer-right{
+        font-size: 2vw;
+    }
+
 }
