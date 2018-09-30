@@ -7,7 +7,6 @@ body {
     height: 100vh;
     overflow-y: hidden;
     vertical-align: baseline;
-    /*font-family: 'Source Sans Pro', Corbel, 'Lucida Grande', Arial, sans-serif;*/
     font-family: 'Merienda', cursive, sans-serif, Helvetica, Arial, sans-serif;
     border-color: hsla(48, 32%, 69%, 0.692);
     border-style: solid;
