@@ -9,7 +9,13 @@ class App extends Component {
             <div className = "header" > 
             <h1> APP - Name </h1></div>
             <div className = "sub-header" >
-            <p > App-links hear </p> </div>
+            <ul class="navigation">
+             <li><a href="#">Contact</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Products</a></li>
+             <li><a href="#">Home</a></li>
+            </ul> 
+            </div>
 
             <div className = "main-two-cal" >
             <div className = "leftcolum" > < p > Content hear </p></div>
