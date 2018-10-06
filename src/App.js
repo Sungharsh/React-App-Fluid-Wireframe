@@ -19,7 +19,7 @@ class App extends Component {
 
             <div className = "main-two-cal" >
             <div className = "leftcolum" > < p > Content hear </p></div>
-            <div className = "rightcolum" > < p > Content hear </p></div>
+            <div className = "rightcolum" > < p > Content hear</p></div>
             </div>
 
             <div className = "appFooter" >
