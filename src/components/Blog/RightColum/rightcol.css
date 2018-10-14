@@ -1,0 +1,9 @@
+.rightcolum {
+    display: grid;
+    justify-items: center;
+   /* padding-left: 10px;*/
+    align-items: center;
+    background-color: #ffe9d9;
+    /*overflow-y:  scroll;*/ /*This code will allows scroll if content overflows*/
+
+}
